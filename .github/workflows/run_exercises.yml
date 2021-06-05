@@ -1,0 +1,15 @@
+name: run_exercies
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  exercises:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: run chapter1 exercises
+      run: ./chapter1/run_all.sh
+
