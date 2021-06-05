@@ -11,9 +11,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name ls
+    - name: ls
       run: ls
-    - name pwd
+    - name: pwd
       run: pwd
     - name: run_chapter1_exercises
       run: ./chapter1/run_all.sh
