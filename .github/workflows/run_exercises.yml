@@ -16,5 +16,7 @@ jobs:
     - name: pwd
       run: pwd
     - name: run_chapter1_exercises
-      run: ./chapter1/run_all.sh
+      run: cd chapter1 && ./run_all.sh
+    - name: pwd2
+      run: pwd
 
